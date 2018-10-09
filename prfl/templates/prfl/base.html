@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="/static/css/base.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="header">
+  <h1>Hi! I'm SPARSH SHRESTHA</h1>
+  <p>Here are somethings about me</p>
+</div>
+
+<div class="navbar">
+  <a href="{% url 'home' %}">Home</a>
+  <a href="{% url 'myresume' %}">My Resume</a>
+  <a href="{% url 'aboutme' %}">About me</a>
+</div>
+
+<div class="row">
+  <div class="side">
+      <h2>About Me</h2>
+      <h5>Photo of me:</h5>
+      <div style="height:200px;">
+        <img src="https://scontent.fblr4-1.fna.fbcdn.net/v/t1.0-9/25298998_1741175005913315_5363916669734532215_n.jpg?_nc_cat=102&oh=beca041d6b26921726c00b64f17cf261&oe=5C5CEC81" alt="Sparsh" style="width:60%">
+      </div>
+      <p>Hi! This is me Posing for photoshoot.</p>
+      <h3>Here are some more photos of me with my family and friends.</h3>
+      <p>My Family</p>
+      <div style="height:200px;">
+        <img src="https://lh3.googleusercontent.com/In8bzosIJDvRrTw9rmO9llCJU1hMTQsl-IYUPGZfpMYM0x45Z91z9rEJXYxx5QBiW8IWeW8oEjxnkee-XU4eSG6fjZX_N-4TiZ7tg5gDDup9gMb0oYr2P7CHYmkumAVH0xvw9KIcLqY1J-QzYJ7CtP2h5bjMNCVxZfVs928XNtBCXuUm_1hH9Yjq5MmKdgdV_7o2B7l1tZ8dIc0ynkrAGPswVuOakx08uyLcX527Wu6MZkcld2JlqOxLcnw6LNIEv7j5VMegMqCmy3k9D9KNkT4PL7uUVkUqDs5nsmZy5idBs9ZFxuYKuh3O2kgmVd0A00YwuUJqUqx5KghbYH8QqOipbBAsCBrJDCj8XH64r0mhtrKgZBiDRkvVO37Z4IsmUYrS0CEsIA14o2cGhBox2rLd8XxL-ZL35e82CrO_Rx1xkck1xJ9lhcR_oBKBJwFQ7U-RrqvnAfd4Y8xfXRTjYxcwDBZRZh2e26kHxCxixrSr5ACMGqy3VSgNTk69X3-bC6uPVs6dYpuNKB62eRhzetXVhLUPYzGHQiyPHhyclCcgRX_tc7AGHtBXjIeFtQsPNTzIQWlbl5x9Y3K2mZk94SsDu4AxeEcAsj3H8_Kx4Jje1t7zv_QmvmgUpHrAA5Y=w842-h639-no" alt="My Family" style="width:70%">
+      </div><br>
+      <div style="height:200px;">
+        <img src="https://lh3.googleusercontent.com/fODgdc1GT3WJzAfrRN_iFKfy11BfAYNkRyaFhINolFln3kFpFa4QBIRTPBea6WyafcYli00l9UQMjqqHmvvmV5vGNUIepL4CMbLiT7IKEH4RrX5Ge_aKl3CTPc7GRgzvmBaZLxX32PAft4UfhTkcBXrRTIzTgrcn-sBHPhX781Wbl5uJIkARiXfH5WL13385p41OapiPnGn-usDESUo8Vl5AHXeEeobwUIPrdp32LyRLzC_g77Df57WKuddYaYyqriwqdkJwPtDHc6ne-JnZ_xOVAC6uw0alGb_zao5RnIbOug_FP7qOiKSA-GQt5NNk8dOYtB-Vs6xZ8_W1_uasxjT60DmId2t_FCuxORtKB79iMg1screD0rFMm4t98W7--xoGwJZXZSwUAfGBvh_LmXntkxLbPfDeIVufvcFnTyl_-efZUfEO6_VLb_ebLg5GPKtjWbttmEBTOU7tUQLeqO8aXXv-vQJ-aYuKsGK_sHlZ3qOxJXZuIdSjPOrRg3IZt3IBXp0cjnQa1P4xIjbPFYpclfsTQXtjDIVow-MfiE_66B01G6Q9cOIeaYXU0FizNtOol1-Vk0eodWcSFrigJJU4e9fCqRWtst3a2tJ5EVNCQKXAXtyd7T7r7T8rOJM=w1065-h639-no" alt="My Family" style="width:70%">
+      </div><br>
+      <div style="height:200px;">
+        <img src="https://lh3.googleusercontent.com/_oev73SrlCK6zqrEvyoD5fqqf0-6q4O3jKCQLZGWhMxLY4erLwofWuMDzLIFK-PLA-O-TX38znoLlgiE2CPkaclEuj6R12al7npYunNmICWak428355jvEUjjsdjXLltmYIJq19AMN3z3i7qQj8wr1Y3oKXRtykEUc40bIe3bp3ZD439Y5HtqPR-Ue-NPr41khvmxceKcjGBN8IJnm7zUoWacWwHXh4AyG8Y2BSjnq-fKEo1zZEWPxJswmd51IlT0oysVSbtl0lAXZJAfi48lYsz2kglTyqbzkyUFZcRavXMuj3u8q6CzAWrv9yKrXtM3NtqdcQhjqI3kPVxOpdH61ExLl8ALyZMPRf2RX5iJuK9PapAZHjcpEwKVUoJUc56jgP4WIvggYDvFag7RKEs7fLKmf19WnBG_WTPRaW758BbsIcSF7ij7-niJl9hswQqDvOGR-1p8eUqkDDWzW2sUEp4SUeqBiWMztHmryz7SDqo2tAvJzaYncgPd5sdM5lOl9uVbp2u-Vmqooj0ixQr42ebY7YR8Nx6UfI4Fg41YlxBuuOGjDM1FwsoyYnfST2jhAWqbek6KFrqopHTwshH7GO6nuV1VwqgCSTWgDZfAHME7wrS26dalIpvr0Q6zK0=w960-h636-no" alt="My Family" style="width:70%">
+      </div>
+      <p>My Friends</p>
+      <div style="height:200px;">
+        <img src="https://lh3.googleusercontent.com/U8DBCTnoW06WYkxDpaK2yrJl3D2U1s-JjO15-5p1uoZex1DqHZG2pjAx86uZmZPmVRiNh8Rwn1HRLl1RyBMJTjpWz5nOhiRjIIIMZcuizsLRGEq6lY8sl-OuQZY5XeDePwWWpMLpsJo0ssbyU8AVI6jDJ8B9TUnpma8VosyMo7ADXzTw0iYiaoMTczESmxp_1EJrH39AFQVLK0X1QStctmrDZrzzZewc9pbKJfWK2apTp41jwvfl-RuxcQXXbtCeluGsflDCI6VLznOU9yqKEECT3szjhVI1lY_BOnek7lH7s3y8D6UmmAs83S2yLvlrpnDnilZSXdYDPwByAL_ApUxRo8alAr_I20c--oJAv13bgAT5IR9ACfbn3Ytw-5m0jj7WBwr4cJY_wcraIJDVnbm2nmaSr10OkoeVqTggJ2nBA_njPXPMLBmkJk2gNQNEWGm7q98W5Wwan7mhkb0g0A_C1gtlM3R5rJNS2SwXsme70QZJr0zJYuDO8a_TOsfwotEIvayufJGcGI0b1LEvPhBvCAb4VGNjFcKK-XavlYfAZyeTn9J23z0sMfJ6rKplSQKfItWjtvDVqj3_7aGua4U6YyK9-GHmINWZ3XkM7znJMYHthyhwjLnhNW8fP9o=w293-h220-no" alt="My Friends" style="width:70%">
+      </div><br>
+      <div style="height:200px;">
+        <img src="https://lh3.googleusercontent.com/bUhL3s18FS-TVQljwAk74OIzPGTUUKBgs5SBFhhzpwvevIcgyWGxy0Rg26Yqyj_99iJrZhL5Hk41aC_4iCyARYcEnQ-siqm1HlQh_I-xFbluDvlnCqL_Qkt-o_0jkGlaVAjXfpYRzIhNaEDs4d3MpaF-sgnpnFnZexfp_EKOHOz5JiEoz0DnTLUvbP7-21juFhFAeVApT7oy1ljcZSQIzua1Ljs7d38zRAO8LnuJF-DcTZ_gC-eNjwUDnhCXbFE40hdhhiQZ7B7jjsRm7P_G0ee-71YsUKnGXyWrYIDzo4geDyRKTMlZsGwRe8noU5iLC6y59loUFvRlsI8ID1eBLi9dEw9AsuAuX5FvKW6fMAYI63dcvrHmPcBVbUzGy97y7f1CQXSFZowqt0ahg6x2NJaoVLD1Huvo99C-BT9BqQh1eWOHZznGXj74ZEI_EIrUtEZorT0wOvOyK6CUny0VCi1D48RVtRNL2fUjKvDoS22mxlCbiTfMt6kUeB1bRlvmllB2A0rwQMm9nJHRbqJOsnmViPe8zNxufGMw5oS-Vuc6f9ZuxzQXS4txWy3XPBGqPyqEag7jFwsLyBDLVxHQhvHmDYtxBeVNs6lU8BszK47ZL2L4beMQajF9YsTZ4_Y=w1135-h639-no" alt="My Friends" style="width:70%">
+      </div><br>
+      <div style="height:200px;">
+        <img src="https://lh3.googleusercontent.com/kpKNF6gb97DRBUKxZ8hdRUbRST3f65BBmd6QktibhguZ_wmf7I85wL-lWXMRJAPoB7kOq0-duKYa7rM-9CpiIKvcy_c6rGOfCVjQlT9sUOfv5FTUI7DDkgCi2XhLtWgAZ6pODpwZrezmUX6MgeK6Jnrt_kF8KmtTS0uTi-BNYR853PdnuNAucvyrpAEvc9XmgoS3IyPVrEOuMtQoiwBIPMGPIw_dgmG1EBDL9izutexQVFBeb1hoeqikOosqRhZwIJqwKu9BgB0jkB9FPPPPj-H1AfOo1E3D5icg3aDA_MO56oI8p9Qz8L_NOcMTvH8irPFdzdBI5r2oOHFpEd9LTg0QcQWzcTMLNhNwuyIewqb4eVzte2k2sNo0GW6kVirL-KSwBmiul50PdGbABa6QHjAXaHxsESOfsavK58CanInOL4tj0eEvxHJX0poAKAms5bM0hWC4RcxeHem2_ta8MrUhf2Q3S4OFprQlC3h2z4Gumh1i_T3k3YAP6FMT-miJ3sImcw2C8h8rcu-YAcu2rUkO1ayunYf_q0zDQHOtUloc_J-u5WrsNCOUzP5OLn1lKjWPwgM6xCryRkmVZGkt5Pn6PBbUlx3EIzXZ8ZWGOd1biYLmzkFxmz96pHysBFU=w1024-h576-no" alt="My Friends" style="width:70%">
+      </div>
+  </div>
+  <div class="main">
+      <h2>This is my HOME TOWN Nepalgunj</h2>
+      <h5>Nepalgunj</h5>
+      <div style="height:400px;">
+        <img src="https://lh3.googleusercontent.com/92yt-1E_6zlNrrqbBiUE4b_CPsVW3GiNAx34fBw8qkIkPdhAstZCdTO6rZM_3F7OTJ6T2aAm5CdHPSEBaxt5PtP0zHKtfmDGBAT6EAeKjlGfZuoPmVIYwPUKmN-_1H4GF863KPrZ8sqUVz82t9I-5tITrcmwgIytkimEPd-D3u9NPSTuHAUxNcxBg1qXJ5W-faJcY0h0hVsEwTYDsEAvF-iFLuz7njrq4-l9SUz-XR9rn7ixWYuU6TXgrmt471QjZZpmXOVUxyqRR0WjLklndhmsc9switlybL4WAeWNqM0o3lgaXnnD7P_oFeC0eb_RQGVrlRKe0yMFAXGHWqj5e0vfMVYTY-hf-tT8qQogRAKMCtNFgrGBtSq-CSGwr9sN5Ies2Jq1Ihh131juoA5ruyxDOTs2gdSbItx6eUe0B-rddpg69tMqExgov9DxdyGPaxteQNwQEmFrnkPLle0hOb4_4ybmnqaCtvF0-Zd80vsBTQDLDV7cWfVCgtJRDShey5eiW8hFtVfwGHQAQKN2FBnSkbvpdHO8CwPbEqvHY_OH8DT4Z3AAmJ6FEjwWe93z4qYP4HYw55gNwIUzvVCSlwsT3TA4bvoWg0zGwqav9t0113W3caa9-2qP98r-8YI=w357-h214-no"alt="Nepalgunj" style="width:60%">
+      </div>
+      <p>Here I my Home Town where I was born.</p>
+      <p>Though it is very very hot here I love being in my Home.</p>
+      <br>
+      <h2>This is where I studied 10th Standard</h2>
+      <h5>Tulsi Higher Secondary School</h5>
+      <div style="height:400px;">
+        <img src="https://lh3.googleusercontent.com/cR9YL9DKfpZnUcuqw_YT0FE415ZBoEatyB1lV011MBiwYd8FadffHBlu0N-RkwZwO0dyfNvu-1UhEts9euWHPI0FtXH6J6cooNb4KMTCHsBcAe1MPCmQJDJy4BhayzQc19lVqeYKdku5E75Ah39zFRxE1UlpGYmSy7IBGacKVvmjUS_FBx27wVd_3GOG-Hbcp3SDjQZlBCJtLGEBRWvkp_NEO17cbneKlMDioW2W4WFmElQhNf3npv9aSYkbljXpD26gBlBSdnL4L9UFiJcq9_G892wEhUxNr-aMPgkONshp2yASPAqUIIhkSYpEi23ceSneU_FaASeuYes5xL42kbt_rAeUaw37OU9XBv6qsBYszq_ZKAu0glZtuRM7Jo1axfZedRL_NyLeSch5CVs9btKceIEup4rza-rKyXFB0GjlkwNY6xWSrqO8MqAs-QqTYiHuCrf9DtBB9bM8ccvNj2rlB50DcNn4nwtpFvvEk5De_mKAYknjfL6jDB4G6AkKG1HzvppF2jmfHPZ2kIzW9Afznt-uYdb2lyTDrXLH0iSWp0bu1W6JZ23TkeKveDyZ8oEW3fkBAnJEvefJMP76WKwZoQUqelTzeNeioU2wLITM0fpB6tWCRKLg8HrAcBc=w296-h221-no"alt="Tulsi Higher Secondary School" style="width:60%">
+      </div>
+      <p>This is my childhood home as I studied here and stayed in Hostel.</p>
+      <p>I had a great time here though I was far from my home.</p>
+      <a href="https://www.facebook.com/TulsiSchool/">Know more about this school Here.</a>
+      <br>
+      <h2>This is where I studied my 12th Standard</h2>
+      <h5>Little Angels' College</h5>
+      <div style="height:400px;">
+        <img src="https://lh3.googleusercontent.com/L8jmOM6ucL7IgXnlZB6iLmXN429SoTwH03TQJg4yougrtjm_1GTGx4VzS4uy5w7ZW_5Z1pDF0w2QxDvb60idjT9si1utLtm6u9sdAu6gIVUVRrx_pviszkfYjZT7XjK_4JqS7BXQNL_hQSGqviZb5UxTZlm5r3iqjvqJVMspjLeBKOgv4vvh85Uw1LC_sSFFLsONKULQtWzLV14y-wkuyzCiPDMTfw-kbzajPujwEdGtHlYwl_dI64D9qEl1MYGO6qH0ISy0M9cFy80FIRsfkTWX6qsXnkgzIpphLmZgP4uwoWisN0oPWs_Pc9UF5FsfgKOJLHGrLr4XLDbdUXtGqqrVTaYvN6PpKIQP-lyrajseigDozApYlstJ9ilN2Gbu5c2Scr_80Lck3kgpoqGtwDhEXBswGdQlCdH7OgD_5AfWep3BC4o85FijtMBwRi1kA12z1jPl7nGIJ8mSuNyj_p3wigYPs-zbTLEgn5VilJRwYKD4nk5kQHvAyQ_x3858gm6nkOv6ZiEj78d23vuScDVDYwF9iGn3FCFaLxXiEB2cWKXo69mjB_hMuQ-Q4ldHapGzYc0GY0fnHXXwwSZHM9yvtbaX0BRHfw8_SG5BVqErsMTfDg_4ar-yHoj7S00=w1023-h639-no"alt="Little Angels' College" style="width:70%">
+      </div>
+      <p>After my 10th standard I travelled to Capital city of Nepal Kathmandu To study in this college. Where I made a lot of Friends and passed my 12th standard.</p>
+      <a href="http://lac.edu.np/">Know more about this college Here.</a>
+      <br>
+      <h2>This is where I'm studying now.</h2>
+      <h5>Acharya Institute of Technology</h5>
+      <div style="height:400px;">
+        <img src="https://lh3.googleusercontent.com/zoEdsVTuVGSpQjl8DADYWKEQY0gvjfZIDPucXa7W2gDb124O9RVkU2Q95cSYixMLBWN3HA9Esqtz7ueLxW-N2t44SXnqCy75zlbdl_O0lCgv6zh6FaMzug13wiB3g-j4a_9kUVQaJAX21XoSu8PR1qrpcsX8v3PjUJQ2I-q2APlK1SQ5rgT8LTWWhZF0nRvhhOcsanHdqPjRouaKjU3x3pDj0MitieC_xTyrMhvrKDfYKC1G2mTUdQzm5xst85SE7MkO9cO3VO8NR7o6sj5EjFFP_2J3T1FI2RUG8HLYa6P8l3WLwnG0DUUox6wex7NHEpbfjc02bjBZPAGwiso9f-g8ZKVHqHM7A8vfDTtV7DZCc8p2o5xT8JXqRJ6JsaEtG9BV89ppT-sBYO1fr6NGpOsGMhLhSEgUo_971Z-si2V3Kmj9LlBv6j4rXgMCilMeCWS-4gclE7S4P8y9qtjV-wg_pw4bs6R8WSS6GUbOgyv3vUAtq8VCEi1imr45dii7dvW8V9P_c6IZ76g7X0DOKNDgpgMANog0OLgvfTrGhiL24iFBMVk3WFcM4HaYvxVTvHbkNQOrVvkQKP0RlfwUnWVzDOtwbgfhVcvoIX6qju17YtOZk1AfyocHZb1LX2o=w830-h436-no"alt="Little Angels' College" style="width:70%">
+      </div>
+      <p>After my 12th standard I wanted to go out of the country to explore outer world. And I came to Bangalore.</p>
+      <a href="http://acharya.ac.in/">Know more about this institute Here.</a>
+  </div>
+</div>
+
+</body>
+</html>
+<img src=""alt="Sparsh" style="width:70%">
